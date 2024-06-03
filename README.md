@@ -372,8 +372,8 @@ SOURCE_LOG_POS=157;
 mysql> start replica;
 Query OK, 0 rows affected, 1 warning (0.13 sec)
 ```
-### verify the switchover
-to verify the switchover process, take placed on `db-inst1` which is our newly Replica server check replica status:
+### verify the switch over
+to verify the switchover process, take placed on `db-inst1` which is our newly Replica server and check replica status:
 ```
 mysql> show replica status \G
 *************************** 1. row ***************************
